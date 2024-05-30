@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 指定播放列表和音乐目录
-playlist="/home/ken/Music/playlist/mylike.m3u"
+playlist="/home/ken/Music/playlists/mylike.m3u"
 music_dir="/home/ken/Music/我最喜欢的音乐"
 
 # 在音乐目录中查找所有支持的音乐文件并生成播放列表
