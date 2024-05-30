@@ -13,12 +13,12 @@ picom &
 goldendict 
 
 #更新壁纸
-/bin/bash ~/scripts/auto_change_wallpaper.sh &
+/bin/bash ~/github/scripts/auto_change_wallpaper.sh &
 
 #更新我最喜欢的音乐播放列表
-/bin/bash ~/scripts/auto_update_playlist.sh &
+/bin/bash ~/github/scripts/auto_update_playlist.sh &
 #加载状态栏
-/bin/bash ~/scripts/statusbar.sh &
+/bin/bash ~/github/scripts/statusbar.sh &
 
 #通知管理器
 dunst &
