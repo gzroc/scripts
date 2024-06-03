@@ -16,7 +16,7 @@ goldendict
 /bin/bash ~/github/scripts/auto_change_wallpaper.sh &
 
 #更新我最喜欢的音乐播放列表
-/bin/bash ~/github/scripts/auto_update_playlist.sh &
+#/bin/bash ~/github/scripts/auto_update_playlist.sh &
 #加载状态栏
 /bin/bash ~/github/scripts/statusbar.sh &
 
@@ -32,3 +32,7 @@ flameshot &
 # MPD daemon start (if no other user instance exists)
 [ ! -s ~/.config/mpd/pid ] && mpd
 
+# 关闭屏保和节能
+xset s off
+xset s noblank
+xset -dpms
