@@ -31,4 +31,7 @@ flameshot &
 #启动MPD程序
 # MPD daemon start (if no other user instance exists)
 [ ! -s ~/.config/mpd/pid ] && mpd
-
+# 关闭屏保和省电
+xset s off
+xset s noblank
+xset -dpms

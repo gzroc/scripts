@@ -10,3 +10,12 @@ find "$music_dir" -type f \( -iname "*.mp3" -o -iname "*.flac" -o -iname "*.m4a"
 # 如果你的音乐文件有其他格式，请根据需要添加或修改文件类型过滤条件
 
 echo "Playlist updated successfully!"
+
+#更新MPD数据库
+mpc update
+#清空当前播放列表
+mpc clear
+#加载新的播放列表
+mpc load "${playlist}"
+#mpc play
+
